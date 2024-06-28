@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlayout">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:text="@string/Menu"
+        android:backgroundTint="@color/cyaan_green"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_imc"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtPeso"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="18dp"/>
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:maxLength="3"
+        android:backgroundTint="@color/cyaan_green"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAltura"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="18dp"/>
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:maxLength="3"
+        android:layout_margin="18dp"
+        android:backgroundTint="@color/cyaan_green"/>
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="18dp"
+        android:text="@string/btncal"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/cyaan_green"/>
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe seus dados!"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/cyaan_green"/>
+
+
+</LinearLayout>
+</ScrollView>

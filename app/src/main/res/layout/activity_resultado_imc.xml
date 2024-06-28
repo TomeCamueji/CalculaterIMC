@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Container"
+        android:orientation="vertical"
+        android:background="#BAD7DEDE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#29AFEB"
+                android:text="Resultado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="18dp"
+                android:text="@string/descr"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="0dp"
+                android:src="@drawable/baseline_add_box_24" />
+
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+        <TextView
+            android:id="@+id/text_result"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="50dp"
+            android:padding="18dp"
+            android:textSize="20dp"
+            tools:text="result" />
+
+        <TextView
+            android:id="@+id/classificationText"
+            android:layout_width="383dp"
+            android:layout_height="183dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="30dp"
+            android:padding="18dp"
+            android:text="@string/informationimc"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="184dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+          android:layout_marginTop="150dp"
+            android:backgroundTint="#4DB7DE"
+            android:text="Calcular novamente" />
+
+        <Button
+            android:id="@+id/btn_Salvar"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:text="Salvar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

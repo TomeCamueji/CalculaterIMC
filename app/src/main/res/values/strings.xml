@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IMC calculater</string>
+    <string name="acess">Entrar</string>
+    <string name="imc_discrition">O IMC, ou Índice de Massa Corporal, é um cálculo simples que permite avaliar se a pessoa está dentro do  peso que é considerado ideal para a sua altura.</string>
+    <string name="Menu">Registro</string>
+    <string name="txt_imc">Calculadora IMC</string>
+    <string name="txtPeso">Peso (Kg)</string>
+    <string name="txtAltura">Altura (cm)</string>
+    <string name="btncal">Calcular</string>
+    <string name="texthint">ex: 1.70</string>
+    <string name="texthint_peso">ex: 70.5</string>
+    <string name="Magreza">De acordo com a Organização Mundial da Saúde, seu IMC é considerado Abaixo do peso para sua altura.</string>
+    <string name="Normal">De acordo com a Organização Mundial da Saúde, seu IMC é considerado normal para a sua altura. </string>
+    <string name="Sobrepeso">De acordo com a Organização Mundial da Saúde, seu IMC está acima do recomendado para a sua altura.</string>
+    <string name="Obsid">De acordo com a Organização Mundial da Saúde, seu IMC está acima do recomendado, e seu caso é considerado obeso(a) para a sua altura. Para atingir um valor de IMC normal,
+        seu peso deve estar entre 35.8 e 54.5 kg.</string>
+    <string name="descr">Tua <font color="#29AFEB">SAÚDE</font><font color="#FF000000"> | </font>
+        <font color="#0C0CE7">REDE Dor</font>
+    </string>
+    <string name="List_response">Resultado: %1$.1f, data: %2$s</string>
+    <string name="res">Seu IMC é de\n
+        <font color="#FF000000">%1$.1f kg/m2</font></string>
+    <string name="salved">Salvar</string>
+    <string name="informationimc"> </string>
+</resources>
